@@ -22,7 +22,7 @@ try:
     y = calc(x)
     input1 = browser.find_element_by_id("answer")
     input1.send_keys(y)
-    button = browser.find_element_by_tag_name("button")
+    button = browser.find_element_by_css_selector(".btn")
     button.click()
 
 finally:
